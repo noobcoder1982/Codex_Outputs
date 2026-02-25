@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvest & Hearth | Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Host+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="menu">
+  <div class="loader" id="loader"><p class="loader__label">Unfolding seasonal menu</p><p class="loader__count" id="loaderCount">0%</p></div>
+  <div class="custom-cursor custom-cursor--outer"></div><div class="custom-cursor custom-cursor--inner"></div>
+
+  <header class="site-header"><div class="site-header__inner"><a class="brand" href="index.html">Harvest & Hearth</a><button class="menu-toggle" aria-label="Toggle navigation">☰</button><nav class="main-nav"><ul><li><a href="index.html" data-nav="home">Home</a></li><li><a href="menu.html" data-nav="menu">Menu</a></li><li><a href="about.html" data-nav="about">About</a></li><li><a href="reservations.html" data-nav="reservations">Reservations</a></li><li><a href="events.html" data-nav="events">Events</a></li><li><a href="gallery.html" data-nav="gallery">Gallery</a></li><li><a href="contact.html" data-nav="contact">Contact</a></li></ul></nav></div></header>
+
+  <main class="page-wrap">
+    <section class="section">
+      <p class="eyebrow reveal-text">Seasonal Menu</p>
+      <h1 class="heading-script reveal-text">Dishes in This Moment</h1>
+      <p class="section-desc reveal-text">Menu items shift based on market availability. Below is this week's snapshot.</p>
+      <div class="menu-grid">
+        <article class="menu-item reveal-text"><h3>Fire-Roasted Beet Carpaccio</h3><p>Orange labneh, pistachio dukkah, dill oil.</p><span class="price">$14</span></article>
+        <article class="menu-item reveal-text"><h3>Coal-Grilled Oyster Mushrooms</h3><p>Sourdough crumb, preserved lemon, smoked yogurt.</p><span class="price">$16</span></article>
+        <article class="menu-item reveal-text"><h3>Braised Lamb Shoulder</h3><p>Charred kale, parsnip purée, rosemary jus.</p><span class="price">$33</span></article>
+        <article class="menu-item reveal-text"><h3>Pan-Seared Market Fish</h3><p>Crushed potatoes, fennel, olive leaf butter.</p><span class="price">$31</span></article>
+        <article class="menu-item reveal-text"><h3>Pumpkin Gnocchi</h3><p>Sage brown butter, hazelnut, aged pecorino.</p><span class="price">$25</span></article>
+        <article class="menu-item reveal-text"><h3>Apple Tarte Tatin</h3><p>Vanilla crème fraîche, toasted oat brittle.</p><span class="price">$12</span></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="site-footer__inner"><div><h3 class="footer-title">Harvest & Hearth</h3><p class="footer-meta">128 Cedar Lane, Brookfield</p><p class="footer-meta">Open Tue–Sun · 5:00 PM – 10:00 PM</p><p class="footer-meta">+1 (555) 234-8891</p><div class="footer-socials"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">X</a></div></div><iframe class="footer-map" title="Map to Harvest and Hearth" src="https://www.google.com/maps?q=128+Cedar+Lane+Brookfield&output=embed" loading="lazy"></iframe></div></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script><script src="script.js"></script>
+</body>
+</html>
