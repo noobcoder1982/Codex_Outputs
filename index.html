@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvest & Hearth | Seasonal Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Host+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+  <div class="loader" id="loader">
+    <p class="loader__label">Setting the table</p>
+    <p class="loader__count" id="loaderCount">0%</p>
+  </div>
+
+  <div class="custom-cursor custom-cursor--outer"></div>
+  <div class="custom-cursor custom-cursor--inner"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html">Harvest & Hearth</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="menu.html" data-nav="menu">Menu</a></li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="reservations.html" data-nav="reservations">Reservations</a></li>
+          <li><a href="events.html" data-nav="events">Events</a></li>
+          <li><a href="gallery.html" data-nav="gallery">Gallery</a></li>
+          <li><a href="contact.html" data-nav="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-wrap">
+      <div class="hero-grid">
+        <article class="panel hero-copy">
+          <p class="eyebrow reveal-text">Locally sourced · seasonally driven</p>
+          <h1 class="heading-script reveal-text">A Cozy Dining Room for Slow Evenings</h1>
+          <p class="reveal-text">Harvest & Hearth is your neighborhood table where market-fresh dishes, candlelit ambience, and warm service come together in a modern yet intimate setting.</p>
+          <div class="cta-row reveal-text">
+            <a href="reservations.html" class="btn btn--solid">Reserve a Table</a>
+            <a href="menu.html" class="btn btn--ghost">Explore Menu</a>
+          </div>
+        </article>
+
+        <figure class="panel hero-media">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1600&q=80" alt="Warmly lit dining room with guests" />
+          <figcaption class="hero-badge">Tonight's seatings from 5:00 PM</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section page-wrap">
+      <div class="section-head">
+        <h2 class="section-title reveal-text">Seasonal Highlights</h2>
+        <p class="section-desc reveal-text">Our kitchen follows the farm calendar—expect bright spring greens, summer tomatoes, autumn roots, and winter braises prepared with restrained, contemporary technique.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="card reveal-text">
+          <h3 class="card-title">Daily Market Board</h3>
+          <p>Small plates and specials composed each afternoon from local deliveries.</p>
+        </article>
+        <article class="card reveal-text">
+          <h3 class="card-title">Chef Pairings</h3>
+          <p>Thoughtful low-intervention wines and spirit-free pairings with every course.</p>
+        </article>
+        <article class="card reveal-text">
+          <h3 class="card-title">Neighborhood Nights</h3>
+          <p>Weekly set-menu suppers designed for relaxed conversation and shared dishes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section page-wrap">
+      <div class="story-layout">
+        <img class="reveal-text" src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1400&q=80" alt="Plated seasonal entrée" />
+        <article class="story-copy reveal-text">
+          <p class="eyebrow">Our approach</p>
+          <h2 class="section-title">Ingredient-Led and Comfort-Focused</h2>
+          <p>We cook in sync with local growers and artisan producers to keep our menu expressive and grounded. The room is designed for closeness: textured walls, earthy tones, warm shadows, and generous pacing between courses.</p>
+          <p>Whether you are dropping in for a midweek plate or celebrating a milestone, we want each visit to feel personal, calm, and memorable.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h3 class="footer-title">Harvest & Hearth</h3>
+        <p class="footer-meta">128 Cedar Lane, Brookfield</p>
+        <p class="footer-meta">Open Tue–Sun · 5:00 PM – 10:00 PM</p>
+        <p class="footer-meta">+1 (555) 234-8891</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+      <iframe class="footer-map" title="Map to Harvest and Hearth" src="https://www.google.com/maps?q=128+Cedar+Lane+Brookfield&output=embed" loading="lazy"></iframe>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
